@@ -1,3 +1,7 @@
 .header {
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* Дописать шрифты */
+  font-family: '', Arial, sans-serif;
 }
