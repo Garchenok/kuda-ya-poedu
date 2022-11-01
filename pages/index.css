@@ -1,1 +1,9 @@
 /* Сюда складываем все импорты */
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/__footer/page__footer.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__link/footer__link.css);
