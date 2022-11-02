@@ -1,56 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Куда я поеду</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./vendor/normalize.css" />
-  <link rel="stylesheet" href="./pages/index.css" />
-  <title>Куда я поеду</title>
-</head>
+  <body>
+    <!-- Пикча для работы с цветом в браузере -->
+    <!-- <img src="./images/kuda-ya-poedu-29-5-20.png" alt=""> -->
+    <div class="page">
+      <!-- Хедер -->
+      <header class="header page__header">
+        <nav class="header__nav">
+          <div class="header__links">
+            <a href="#" class="header__link">Мечты</a>
+            <a href="#" class="header__link">Ожидания</a>
+            <a href="#" class="header__link">Реальность</a>
+          </div>
+          <a href="#" class="header__link header__link_report">Пожаловаться</a>
+        </nav>
+      </header>
 
-<body>
-  <!-- Пикча для работы с цветом в браузере -->
-  <!-- <img src="./images/kuda-ya-poedu-29-5-20.png" alt=""> -->
-  <div class="page">
-    <!-- Хедер -->
-    <header class="header page__header">
-      <nav class="header__nav">
-        <div class="header__links">
-          <a href="#" class="header__link">Мечты</a>
-          <a href="#" class="header__link">Ожидания</a>
-          <a href="#" class="header__link">Реальность</a>
+      <!-- Основное содержимое контента -->
+      <main class="content page__content">
+        <!-- Секция "Куда я поеду" -->
+        <section class="where-will-i-go content__where-will-i-go"></section>
+
+        <!-- Здесь можно сделать все одним гридом, но это не точно -->
+        <section class="place content__place">
+          <!-- картинка, текст -->
+          <!-- текст, картинка -->
+          <!-- и т.д.  -->
+        </section>
+
+        <!-- Секция с карточками "Что говорят люди о путешествиях" -->
+        <section class="about-travel content__about-travel">
+          <p class="about-travel__caption">Люди</p>
+          <h2 class="about-travel__title">
+            Что говорят и говорили люди о путешествиях
+          </h2>
+          <ul class="about-travel__cards">
+            <li class="about-travel__card">
+              <blockquote class="about-travel__quote">
+                <h3 class="about-travel__card-author">Иван Бунин</h3>
+                <p class="about-travel__text">
+                  Человека делают счастливым три вещи: любовь, интересная работа
+                  и возможность путешествовать.
+                </p>
+              </blockquote>
+            </li>
+            <li class="about-travel__card">
+              <blockquote class="about-travel__quote">
+                <h3 class="about-travel__card-author">Альбер Камю</h3>
+                <p class="about-travel__text">
+                  Путешествие как самая великая и серьезная наука помогает нам
+                  вновь обрести себя.
+                </p>
+              </blockquote>
+            </li>
+            <li class="about-travel__card">
+              <blockquote class="about-travel__quote">
+                <h3 class="about-travel__card-author">Норвежская пословица</h3>
+                <p class="about-travel__text">
+                  Лишь тот, кто странствует, открывает новые пути.
+                </p>
+              </blockquote>
+            </li>
+            <li class="about-travel__card">
+              <blockquote class="about-travel__quote">
+                <h3 class="about-travel__card-author">Мария Захарова</h3>
+                <p class="about-travel__text">
+                  В принципе зарубежная поездка – это серьезнейшее,
+                  ответственнейшее и очень рискованное предприятие.
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- Подвал сайта -->
+      <footer class="footer page__footer">
+        <p class="footer__copyright">&copy;2022</p>
+        <div class="footer__author">
+          <a
+            class="footer__link"
+            href="https://github.com/AgeShinobi"
+            target="_blank"
+            >Агешин Андрей</a
+          >
+          <a
+            class="footer__link"
+            href="https://github.com/Garchenok"
+            target="_blank"
+            >Гарченок Игорь</a
+          >
         </div>
-        <a href="#" class="header__link header__link_report">Пожаловаться</a>
-      </nav>
-    </header>
-
-    <!-- Основное содержимое контента -->
-    <main class="content page__content">
-      <!-- Секция "Куда я поеду" -->
-      <section class="where-will-i-go content__where-will-i-go"></section>
-
-      <!-- Здесь можно сделать все одним гридом, но это не точно -->
-      <section class="place content__place">
-        <!-- картинка, текст -->
-        <!-- текст, картинка -->
-        <!-- и т.д.  -->
-      </section>
-
-      <!-- Секция с карточками "Что говорят люди о путешествиях" -->
-      <section class="about-travel content__about-travel"></section>
-    </main>
-
-    <!-- Подвал сайта -->
-    <footer class="footer page__footer">
-      <p class="footer__copyright">&copy;2022</p>
-      <div class="footer__author">
-        <a class="footer__link" href="https://github.com/AgeShinobi" target="_blank">Агешин Андрей</a>
-        <a class="footer__link" href="https://github.com/Garchenok" target="_blank">Гарченок Игорь</a>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>

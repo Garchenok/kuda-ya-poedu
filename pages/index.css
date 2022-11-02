@@ -14,9 +14,18 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_report/header__link_report.css);
 
+/* content */
+@import url(../blocks/content/__about-travel/content__about-travel.css);
 
-
-
+/* Секция с карточками "Что говорят люди о путешествиях */
+@import url(../blocks/about-travel/about-travel.css);
+@import url(../blocks/about-travel/__caption/about-travel__caption.css);
+@import url(../blocks/about-travel/__title/about-travel__title.css);
+@import url(../blocks/about-travel/__cards/about-travel__cards.css);
+@import url(../blocks/about-travel/__card/about-travel__card.css);
+@import url(../blocks/about-travel/__quote/about-travel__quote.css);
+@import url(../blocks/about-travel/__card-author/about-travel__card-author.css);
+@import url(../blocks/about-travel/__text/about-travel__text.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
