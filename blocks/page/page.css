@@ -8,7 +8,7 @@
   flex-direction: column;
   margin: 0 auto;
   /* при ширине больше 1280px по бокам увеличиваются отступы */
-  padding: 0 calc((100% - 1280px)/2);
+  padding: 0 calc((100% - 1440px)/2);
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
