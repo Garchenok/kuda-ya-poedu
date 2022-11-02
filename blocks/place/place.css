@@ -1,0 +1,9 @@
+.place {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.place:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}

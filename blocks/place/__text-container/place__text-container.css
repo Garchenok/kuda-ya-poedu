@@ -1,0 +1,6 @@
+.place__text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", Arial, sans-serif;
+}
