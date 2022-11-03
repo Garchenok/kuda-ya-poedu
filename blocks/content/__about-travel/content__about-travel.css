@@ -1,4 +1,5 @@
 .content__about-travel {
-  max-width: 1280px;
-  margin: 150px 70px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 150px 0 70px;
 }
