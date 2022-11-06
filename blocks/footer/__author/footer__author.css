@@ -4,3 +4,10 @@
   font-size: 28px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__author {
+    flex-direction: column;
+    font-size: 22px;
+  }
+}
