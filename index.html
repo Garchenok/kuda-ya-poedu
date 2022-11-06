@@ -22,9 +22,24 @@
             <a href="#" class="header__link">Ожидания</a>
             <a href="#" class="header__link">Реальность</a>
           </div>
-          <a href="#" class="header__link header__link_report">Пожаловаться</a>
         </nav>
+        <button class="header__report" type="button">Пожаловаться</button>
       </header>
+      <div class="popup">
+        <div class="popup__container">
+          <button class="popup__close"></button>
+          <h2 class="popup__title">Описание проблемы</h2>
+          <form class="popup__form">
+            <textarea
+              class="popup__textarea"
+              name="report"
+              cols="25"
+              rows="5"
+            ></textarea>
+            <button class="popup__submit" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
 
       <!-- Основное содержимое контента -->
       <main class="content page__content">
@@ -184,5 +199,6 @@
         </div>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,11 @@
+.popup__textarea {
+  width: 320px;
+  height: 80px;
+  border: 1px solid #fecda6;
+  margin: 0 auto 27px auto;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  resize: none;
+  padding: 10px 10px 0 10px;
+}
