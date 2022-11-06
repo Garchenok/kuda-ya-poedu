@@ -12,6 +12,10 @@
   border-radius: 10px;
 }
 
+.popup__submit:hover {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
 @media screen and (max-width: 460px) {
   .popup__submit {
     width: 200px;
