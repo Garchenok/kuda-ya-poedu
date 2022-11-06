@@ -8,3 +8,9 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 595px) {
+  .about-travel__cards {
+    justify-content: center;
+  }
+}

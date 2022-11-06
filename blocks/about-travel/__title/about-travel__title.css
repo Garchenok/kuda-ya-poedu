@@ -3,5 +3,14 @@
   font-weight: 700;
   line-height: 1.5;
   max-width: 500px;
-  margin: 25px 0 100px 0;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  text-align: start;
+}
+
+@media screen and (max-width: 595px) {
+  .about-travel__title {
+    text-align: center;
+    font-size: 28px;
+  }
 }

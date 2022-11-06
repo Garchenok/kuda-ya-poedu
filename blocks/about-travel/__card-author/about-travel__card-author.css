@@ -4,3 +4,9 @@
   text-transform: uppercase;
   margin: 0;
 }
+
+@media screen and (max-width: 595px) {
+  .about-travel__card-author {
+    font-size: 12px;
+  }
+}
