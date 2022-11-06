@@ -11,3 +11,9 @@
   padding: 4px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 460px) {
+  .popup__submit {
+    width: 200px;
+  }
+}

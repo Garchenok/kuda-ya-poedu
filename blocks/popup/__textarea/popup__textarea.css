@@ -9,3 +9,9 @@
   resize: none;
   padding: 10px 10px 0 10px;
 }
+
+@media screen and (max-width: 460px) {
+  .popup__textarea {
+    width: 200px;
+  }
+}
