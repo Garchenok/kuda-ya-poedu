@@ -2,5 +2,21 @@
   max-width: 400px;
   max-height: 400px;
   object-fit: cover;
-  padding: 0 115px 0 0
+  padding: 0 115px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__image-wrapper {
+    padding: 0 0 0 50px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .intro__image-wrapper {
+    display: none;
+  }
+  
 }

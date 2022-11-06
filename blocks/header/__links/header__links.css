@@ -4,3 +4,13 @@
   flex-direction: row;
 
 }
+
+@media screen and (max-width: 768px) {
+  .header__links {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+  }
+  
+}

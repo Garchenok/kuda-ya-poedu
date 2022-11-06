@@ -6,8 +6,23 @@
   font-size: 16px;
   line-height: 1.05;
   font-weight: 400;
+
+  transition: .5s;
 }
 
 .header__link:last-of-type {
   margin: 0;
+}
+
+.header__link:hover {
+  color: #fecda6;
+}
+
+@media screen and (max-width: 768px) {
+  .header__link {
+    font-size: 22px;
+    line-height: 1.5;
+
+  }
+  
 }

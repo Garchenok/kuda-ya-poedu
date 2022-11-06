@@ -11,10 +11,10 @@
   .place {
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 768px) {
+  
   .place:nth-of-type(2n) {
     flex-direction: column;
   }
 }
+
+
