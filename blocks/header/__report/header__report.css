@@ -1,0 +1,12 @@
+.header__report {
+  border: none;
+  text-decoration: 0;
+  background-color: unset;
+  padding: 0;
+  font-weight: 700;
+}
+
+.header__report:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
