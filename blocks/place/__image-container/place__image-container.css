@@ -1,23 +1,23 @@
-.place__image {
-  width: 100%;
+.place__image-container {
+  width: 50%;
   height: 600px;
-  object-fit: cover;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1280px) {
-  .place__image {
+  .place__image-container {
     height: 530px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .place__image {
+  .place__image-container {
     height: 425px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__image {
+  .place__image-container {
     width: 100%;
   }
 }

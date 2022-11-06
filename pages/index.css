@@ -31,10 +31,12 @@
 
 /* places */
 @import url(../blocks/places/places.css);
- /* place */
+/* place */
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__image-container/place__image-container.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__text-container/place__text-container.css);
 

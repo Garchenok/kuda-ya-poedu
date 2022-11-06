@@ -1,6 +1,31 @@
 .place__text-container {
-  width: 50%;
+  font-family: "Inter", Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  font-family: "Inter", Arial, sans-serif;
+  margin-right: 160px;
+  margin-left: 80px;
+  width: calc(50% - 240px);
+}
+
+@media screen and (max-width: 1280px) {
+  .place__text-container {
+    margin-right: 150px;
+    margin-left: 50px;
+    width: calc(50% - 200px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text-container {
+    margin-right: 130px;
+    margin-left: 40px;
+    width: calc(50% - 170px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text-container {
+    margin-right: 40px;
+    width: calc(100% - 80px);
+  }
 }
