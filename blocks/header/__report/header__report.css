@@ -4,7 +4,7 @@
   background-color: unset;
   padding: 0;
   font-weight: 400;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .header__report:hover {
@@ -16,13 +16,5 @@
   .header__report {
     font-size: 22px;
     line-height: 1.5;
-
-  }
-  
-}
-
-@media screen and (max-width: 650px) {
-  .header__report {
-    text-decoration: overline;
   }
 }
